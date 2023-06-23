@@ -1,0 +1,17 @@
+ /* tag selector */
+ body{
+    font-family: sans-serif;
+    background-color: cadetblue;
+    color:rgb(253, 249, 249);
+}
+
+/* id selector class selector */
+#brand{
+    color: #ffffff;
+}
+#secondBrand{
+    color:red;
+}
+.brandClass{
+    color:blueviolet;
+}
