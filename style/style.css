@@ -1,17 +1,41 @@
  /* tag selector */
  body{
     font-family: sans-serif;
-    background-color: cadetblue;
-    color:rgb(253, 249, 249);
 }
 
 /* id selector class selector */
 #brand{
-    color: #ffffff;
+    color: #1e1a1a;
+    font-size: 3em; /* 50*16 */
+    /* em =16px, rem */
 }
 #secondBrand{
     color:red;
 }
 .brandClass{
     color:blueviolet;
+}
+
+.content p{
+    /* 1rem = 16px */
+    /* font-size: 2rem; */
+    /* 2rem = 32px */
+    font-size:32px;
+    text-align: center;
+    /* text-align: right; */
+    /* text-align: left; */
+    /* text-align: justify; */
+
+}
+.content p #off{
+    /* 1rem = 16px */
+    /* font-size: 2rem; */
+    /*2*16 = 32px */
+    /* off */
+    font-size: 38px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    color:blue;
+    
 }
