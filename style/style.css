@@ -47,22 +47,30 @@
 
 /* playground */
 
-#box{
-    width:300px;
-    border:2px solid red;
-    /* padding: top right bottom left */
-    /* padding all around, padding:10px */
-    /* padding: top/bottom left/right */
-    /* padding:10px 15px */
-    padding: 10px 25px ;
-    /* margin: top right bottom left */
-    /* margin all around, margin:10px */
-    /* margin: top/bottom left/right */
-    /* padding:10px 15px */
-    margin:50px 50px ;
-
-    /* box-model */
-
-    /* initial-width= 300px+50px+4px+100px = 454px */
-
+#main-box{
+   width: 400px;
+   height: 300px;
+   margin: 30px auto;
+   background-color: green;
+   position:relative;
+   
 }
+.child-box{
+    width:100px;
+    height: 100px;
+    background-color: rgb(168, 44, 3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    border-radius: 50%;
+}
+/* .child-box2{
+    width:150px;
+    height: 150px;
+    background-color: rgb(55, 9, 183);
+    position: absolute;
+    left: 50px;
+    top: 0;
+    z-index: 11;
+} */
